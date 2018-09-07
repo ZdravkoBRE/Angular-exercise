@@ -4,8 +4,8 @@ import { Component, OnInit } from "@angular/core";
 import { ProductService } from './product.service';
 
 @Component({
-    templateUrl: './product-list.component.html',
-    styleUrls: ['./product-list.component.css']
+    templateUrl: '../product-list.component.html',
+    styleUrls: ['../css/product-list.component.css']
 })
 export class ProductListComponent implements OnInit {
     pageTitle: string = 'Product List';

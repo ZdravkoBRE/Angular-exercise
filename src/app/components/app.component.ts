@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 @Component({
   selector: 'pm-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  templateUrl: '../app.component.html',
+  styleUrls: ['../css/app.component.css']
 })
 
 export class AppComponent {
