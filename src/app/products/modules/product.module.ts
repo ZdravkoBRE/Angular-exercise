@@ -3,7 +3,7 @@ import { RouterModule } from '@angular/router';
 
 import { ProductListComponent } from '../components/product-list.componet';
 import { ProductDetailComponent } from '../components/product-detail.component';
-import { ProductDetailGuard } from '../components/product-detail.guard';
+import { ProductDetailGuard } from '../guard/product-detail.guard';
 import { SharedModule } from '../../shared/modules/shared.module';
 
 @NgModule({
